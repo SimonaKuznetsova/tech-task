@@ -1,0 +1,40 @@
+.employees-page {
+  &__title_employees {
+    color: #ffffff;
+    font-family: "Heebo", sans-serif;
+  }
+
+  &__letter-employees {
+    color: #a885e8;
+    font-family: "Heebo", sans-serif;
+    margin-bottom: 15px;
+  }
+
+  &__employees {
+    background-color: #1f1e1e;
+    font-family: "Poppins", sans-serif;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #ffffff;
+    letter-spacing: 1px;
+  }
+
+  &__item {
+    font-size: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__list-employees {
+    width: 22%;
+    background-color: #333333;
+    border-radius: 7px;
+    padding: 6px;
+    margin-bottom: 11px;
+  }
+}

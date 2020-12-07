@@ -1,0 +1,42 @@
+.start {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Heebo', sans-serif;
+
+    &__title {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 20px;
+    }
+
+    &__title__text {
+        font-size: 33px;
+        margin-right: 5px;
+        color: white;
+    }
+
+    &__link {
+        background-color: white;
+        padding: 15px 25px;
+        text-decoration: none;
+        color: #000000;
+        border-radius: 15px;
+        font-size: 20px;
+        text-transform: uppercase;
+        transition: 0.3s all ease;
+    }
+
+    &__link:hover {
+        background: linear-gradient(90deg, #18b76a, #a885e8);
+        transform: scale(1.2);
+        color: #000000;
+    }
+
+    &__link:active {
+        transform: scale(1);;
+    }
+}

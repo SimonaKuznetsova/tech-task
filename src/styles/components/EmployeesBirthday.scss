@@ -1,0 +1,48 @@
+.employees-page {
+  &__title_birth {
+    color: white;
+  }
+
+  &__birth {
+    font-family: "Heebo", sans-serif;
+    background: linear-gradient(90deg, #18b76a, #a885e8);
+  }
+
+  // &__birth-wrapper {
+  //   width: 100%;
+  //   max-width: inherit;
+  //   position: fixed;
+  // }
+
+  &__list-birth {
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 46%;
+    background-color: #92868652;
+  }
+
+  &__birth-item {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  &__letter-birth {
+    font-family: "Heebo", sans-serif;
+    margin-bottom: 15px;
+    color: #333333;
+  }
+
+  &__birth-item::before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+    background-color: #333333;
+    margin-right: 10px;
+  }
+}

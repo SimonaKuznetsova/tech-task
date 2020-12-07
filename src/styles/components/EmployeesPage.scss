@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Poppins:wght@200&display=swap");
+
+.employees-page {
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  &__employees,
+  &__birth {
+    width: 50%;
+    padding: 30px;
+  }
+}
